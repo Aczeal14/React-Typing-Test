@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from 'react';
+import React, {useEffect} from 'react';
 
 export default function Stats(props) {
   const {startTimer, correctWords, timer, setTimer, restartBtnRef, thirtyRef, sixtyRef, begRef, proRef, setStartTimer, setDisabled, wordsSubmitted, factor, timeNameRef, timeRef, cwNameRef, cwRef,} = props

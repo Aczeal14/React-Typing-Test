@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useRef} from 'react'
+import React, {useEffect, useState} from 'react'
 
 export default function Limit(props) {
   const {setTimer, displayTest, factor, setFactor, thirtyRef, sixtyRef, begRef, proRef} = props
